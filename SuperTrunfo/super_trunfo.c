@@ -139,5 +139,19 @@ int main()
     char comparacao_superPoder = '1' + (superPoder1 < superPoder2);
     printf("Super Poder: Carta %c Venceu\n\n", comparacao_superPoder);
 
+    printf("Comparacao de Cartas (Atributo Escolhido: Populacao):\n\n"); // Comparação entre cartas
+
+    printf("Carta 1 - %s (%s): %d\n", nome1, codigo1, populacao1); // Informativo das cartas
+    printf("Carta 2 - %s (%s): %d\n\n", nome2, codigo2, populacao2);
+
+    if (populacao1 > populacao2) // Lógica de comparação entre cartas
+    {
+        printf("Resultado: Carta 1 (%s) venceu !\n\n", nome1);
+    }
+    else
+    {
+        printf("Resultado: Carta 2 (%s) venceu !\n\n", nome2);
+    }
+
     return 0;
 }
