@@ -3,7 +3,7 @@
 Este repositório contém os exercícios da faculdade de ADS.
 
 ## Linguagem C
- # Tarefa: Super Trunfo (Nível Novato)
+ # Tarefa: Super Trunfo.
 
 Este é um exercício de programação em C da faculdade Estácio.  
 O objetivo é criar um programa simples no estilo "Super Trunfo".
